@@ -6,7 +6,7 @@ import ReactSixteenAdapter from 'enzyme-adapter-react-16';
 export default class ChromeBoisDomain extends Component {
   
     handleMouseMove = (event) => {
-        drawChromeBoiAtCoords(event.screenX,event.screenY)
+        drawChromeBoiAtCoords(event.clientX,event.clientY)
     }
     
     handleClick = () => { 
